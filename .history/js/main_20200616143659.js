@@ -10,7 +10,6 @@ burger.onclick = function () {
 
 	if (menu.style.display == "none" || menu.style.display == "") {
 		// if (!menuShow) {
-
 		// menuShow = true;
 		menu.style.margin = "50px";
 		menu.style.display = "block";
@@ -33,7 +32,6 @@ window.onresize = function (event) {
 		burgerShow = false;
 		menu.style.margin = "0px";
 	}
-
 	if (body.offsetWidth > 650 && (!burgerShow)) { menu.style.display = "block"; }
 	else { menu.style.display = "none"; }
 }

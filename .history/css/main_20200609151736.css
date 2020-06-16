@@ -369,17 +369,18 @@ header .header-footer p a.g-plus img {
     }
 }
 @media (max-width: 650px) {
-    header nav {
+	header .mobile img {
+        display: block;
+    } 
+	header nav {
         display: none;
         height: auto;
-        width: 300px;
+		  width: 150px;
+		  /* padding: 10px; */
     }
     header nav a {
-		  float: none;
-		}
-    header .mobile img {
-        display: block;
-    }
+        float: none;    }
+    
     .features .f-t table {
     margin: 5px;
 

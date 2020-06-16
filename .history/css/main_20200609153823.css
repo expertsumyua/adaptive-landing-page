@@ -376,7 +376,8 @@ header .header-footer p a.g-plus img {
     }
     header nav a {
 		  float: none;
-		}
+	}
+		  
     header .mobile img {
         display: block;
     }

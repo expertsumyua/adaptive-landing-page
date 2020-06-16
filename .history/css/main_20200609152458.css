@@ -345,7 +345,6 @@ header .header-footer p a.g-plus img {
 .features .f-t .mobile {
         display: none;
     }
-}
 
 @media (max-width: 1000px) {
     header .contaner {
@@ -369,17 +368,18 @@ header .header-footer p a.g-plus img {
     }
 }
 @media (max-width: 650px) {
-    header nav {
+	header .mobile img {
+        display: block;
+    } 
+	header nav {
         display: none;
         height: auto;
-        width: 300px;
+		  width: 150px;
     }
     header nav a {
 		  float: none;
-		}
-    header .mobile img {
-        display: block;
-    }
+	}
+    
     .features .f-t table {
     margin: 5px;
 
@@ -576,5 +576,3 @@ header .header-footer p a.g-plus img {
   h3 {
     page-break-after: avoid;
   }
-}
-

@@ -372,11 +372,13 @@ header .header-footer p a.g-plus img {
     header nav {
         display: none;
         height: auto;
-        width: 300px;
+		  width: 300px;
+		  margin-top: 50px;
     }
     header nav a {
 		  float: none;
-		}
+	}
+		  
     header .mobile img {
         display: block;
     }

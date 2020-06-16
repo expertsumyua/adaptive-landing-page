@@ -166,7 +166,7 @@ header nav {
 header nav a {
     height: 100%;
     margin-right: 13px;    
-    padding: 0 10px;
+    padding: 0 5px;
     line-height: 68px;
     text-decoration: none;
     font-size: 12px;
@@ -375,8 +375,7 @@ header .header-footer p a.g-plus img {
         width: 300px;
     }
     header nav a {
-		  float: none;
-		}
+        float: none;    }
     header .mobile img {
         display: block;
     }
