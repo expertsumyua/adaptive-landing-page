@@ -159,6 +159,7 @@ header .short-tag:before {
 }
 
 header nav {
+	display: block;
 	position: absolute;
 	right: 0;
 	height: 100%;

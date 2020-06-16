@@ -390,7 +390,6 @@ header .header-footer p a.g-plus img {
 		display: block;
 	}
 }
-
 @media (max-width: 400px) {
 	header .contaner {
 		/*left: calc(50% - ( calc(100% - 10px)));*/

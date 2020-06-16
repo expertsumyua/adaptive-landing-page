@@ -22,19 +22,19 @@ burger.onclick = function () {
 	}
 }
 
-window.onresize = function () {
-	// if (menu.style.display == "none" || menu.style.display == "") { menuShow = false; }
-	// else { menuShow = true; }
+// window.onresize = function () {
+// 	// if (menu.style.display == "none" || menu.style.display == "") { menuShow = false; }
+// 	// else { menuShow = true; }
 
-	if (body.offsetWidth <= 650) {
-		burgerShow = true;
-		menu.style.margin = "50px";
-	} else {
-		burgerShow = false;
-		menu.style.margin = "0px";
-	}
+// 	if (body.offsetWidth <= 650) {
+// 		burgerShow = true;
+// 		menu.style.margin = "50px";
+// 	} else {
+// 		burgerShow = false;
+// 		menu.style.margin = "0px";
+// 	}
 
-	if (body.offsetWidth > 650 && !burgerShow) { menu.style.display = "block"; }
-	else { menu.style.display = "none"; }
-}
+// 	if (body.offsetWidth > 650 && !burgerShow) { menu.style.display = "block"; }
+// 	else { menu.style.display = "none"; }
+// }
 

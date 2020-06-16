@@ -382,6 +382,17 @@ header .header-footer p a.g-plus img {
 		margin: 5px;
 	}
 }
+@media (min-width: 651px) {
+	header nav {
+		display: block;
+		/* height: auto;
+		width: 300px; */
+	}
+	header nav a {
+		float: left;
+	}
+}
+
 @media (max-width: 450px) {
 	.features .f-t .base {
 		display: none;
