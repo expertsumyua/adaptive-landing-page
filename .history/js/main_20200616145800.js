@@ -2,6 +2,7 @@
 
 let burger = document.querySelector("header .mobile img");
 let menu = document.querySelector("header nav");
+// let menuFloat = document.querySelector("header nav a");
 let burgerShow = false;
 let menuShow = true;
 let body = document.querySelector("body");
